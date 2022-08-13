@@ -1,0 +1,118 @@
+body {
+  background-color: #fcfcfc;
+}
+
+#contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#weather {
+  color: white;
+  mix-blend-mode: difference;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#weather div:first-child {
+  display: flex;
+  line-height: 40px;
+}
+
+#weather img {
+  height: 35px;
+}
+
+#clock {
+  font-size: 100px;
+  color: white;
+  mix-blend-mode: difference;
+  margin-bottom: 0;
+  margin-top: 200px;
+}
+
+#login-form > input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px white solid;
+  background-color: transparent;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: white;
+  mix-blend-mode: difference;
+}
+
+#login-form > input::placeholder{
+  color: #e4e4e4;
+}
+
+#login-form > input:focus{
+  outline: none;
+}
+
+#greeting {
+  color: white;
+  mix-blend-mode: difference;
+}
+
+#todo-form > input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px white solid;
+  background-color: transparent;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: white;
+  mix-blend-mode: difference;
+  width: 200px;
+}
+
+#todo-form > input::placeholder{
+  color: #e4e4e4;
+  mix-blend-mode: difference;
+}
+
+#todo-form > input:focus{
+  outline: none;
+}
+
+#todo-list {
+  color: white;
+  mix-blend-mode: difference;
+  width: 400px;
+  margin-bottom: 50px;
+}
+
+#todo-list button {
+  font-size: 12px;
+  background-color: transparent;
+  border: none;
+  margin-left: 2px;
+}
+
+#quote{
+  color:white;
+  mix-blend-mode: difference;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+#quote div:first-child {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#quote div:last-child {
+  margin-left: auto;
+}
